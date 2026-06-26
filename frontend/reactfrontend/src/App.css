@@ -1,0 +1,8 @@
+body { background-color: #f4f7f6; font-family: Arial, sans-serif; }
+.todo-container { max-width: 500px; margin: 50px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+h1 { text-align: center; color: #333; }
+.todo-form { display: flex; gap: 10px; margin-bottom: 20px; }
+.todo-form input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+.todo-form button { padding: 10px 15px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.task-list { list-style: none; padding: 0; }
+.task-item { padding: 12px; border-bottom: 1px solid #eee; color: #333; }
